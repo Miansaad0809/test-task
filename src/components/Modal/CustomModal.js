@@ -139,7 +139,7 @@ function CustomModal(props) {
                     </FormGroup>
                     <FormGroup row className='btn-container'>
                       <Col lg={12}>
-                        <Button type='submit' className='submit-btn' disabled={(username.length === 0 || email.length === 0)? true:false}>Save Change</Button>
+                        <Button type='submit' className='submit-btn' disabled={(username.length === 0 || email.length === 0)? true:false}>Save Changes</Button>
                       </Col>
                     </FormGroup>
                   </Form>
